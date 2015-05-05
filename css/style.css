@@ -1,0 +1,66 @@
+body{
+    background:#000000;
+
+}
+.main_hero {
+    margin:0;
+    background:url('../images/impala_header_1_bg.jpg');
+    background-size:100%;
+    background-repeat:none;
+    height:500px;
+    background:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    z-index:1;
+}
+
+.home_video, .home_dl_btn {
+    margin-bottom:20px;
+}
+
+.header {
+    background:url('../images/steelbackground3.jpg');
+    background-size:100%;
+}
+
+
+.home_dl_button_wrapper {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+title_logo {
+    color:#ffffff;
+}
+
+.nav {
+    background:#000000;
+}
+
+ ul li{
+    display:inline-block;
+    color:#ffffff;
+    padding:20px;
+    font-size:20px;
+}
+
+
+@media (min-width: 769px){
+    .home_video{
+        position:relative;
+        top:100px;
+        left:130px;
+    }
+
+    .home_dl_btn {
+        position:relative;
+        top:100px;
+        left:230px;
+    }
+
+    .header_img img {
+        position:relative;
+        left:100px;
+    }
+}
